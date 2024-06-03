@@ -1,11 +1,21 @@
 body{
-    background-color: blanchedalmond;
+    background-color:lavender;
     justify-content: center;
 }
 h1{
     font-size: 5rem;
     text-align: center;
     color: brown;
+}
+div{
+    display: block;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
 }
 img {
     width: 25%;
@@ -14,7 +24,7 @@ img {
    margin-right: auto;
 }
 input[type=text]:focus{
-    width: 60%;
+    width: 30%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -25,3 +35,24 @@ label{
     font-size: larger;
     font-weight: bold;
 }
+form{
+   text-align: center;
+   padding-top: 5%;
+}
+input{
+    padding-left: 5%;
+    padding-top: 2%;
+    border-radius: 4px;
+}
+
+button{
+    color: black;
+    font-weight: bold;
+    background-color:grey;
+    border-radius: 4px;
+    padding: 12px;
+}
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
