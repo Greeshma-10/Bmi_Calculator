@@ -1,6 +1,7 @@
 body{
     background-color:lavender;
     justify-content: center;
+    
 }
 h1{
     font-size: 5rem;
@@ -11,6 +12,7 @@ div{
     display: block;
     padding-right: 20%;
     padding-left: 20%;
+    
 }
 p{
     text-align: center;
@@ -55,4 +57,9 @@ button{
 select {
     margin-bottom: 10px;
     margin-top: 10px;
+  }
+  @media (min-width: 600px ){
+    body{
+        width: auto
+    }
   }
