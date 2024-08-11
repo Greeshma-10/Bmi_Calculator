@@ -16,8 +16,9 @@ div{
 }
 p{
     text-align: center;
-    color: black;
+    color: purple;
     font-size: 2rem;
+    font-style:oblique;
 }
 img {
     width: 25%;
@@ -63,3 +64,10 @@ select {
         width: auto
     }
   }
+
+  #result{
+    color: red;
+    text-align: center;
+  }
+
+  
